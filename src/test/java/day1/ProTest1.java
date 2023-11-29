@@ -4,7 +4,8 @@ import org.testng.annotations.Test;
 
 public class ProTest1 {
 @Test
-public void test1() throws Exception {
+public void hitest() throws Exception {
 	System.out.println("hiii    hii hii hii hii hii g");
+	System.out.println("hggfstyghbh");
 }
 }
