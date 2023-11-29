@@ -12,7 +12,7 @@ public class Program2Test {
 		WebDriver driver =new ChromeDriver();
 		driver.manage().window().maximize();
 		
-		driver.get("https://www.facebook.com/");
+		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
 		System.out.println(driver.getTitle());
 		System.out.println("hi");
