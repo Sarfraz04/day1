@@ -15,6 +15,7 @@ public class Program2Test {
 		driver.get("https://www.facebook.com/");
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
 		System.out.println(driver.getTitle());
+		System.out.println("hi");
 		}
 
 }
