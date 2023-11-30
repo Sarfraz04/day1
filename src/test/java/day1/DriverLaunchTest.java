@@ -22,7 +22,7 @@ public class DriverLaunchTest {
 			String URL = System.getProperty("url");
 			System.out.println(BROWSER);
 			System.out.println(URL);
-			if(BROWSER.equalsIgnoreCase("chrome"))
+			if(BROWSER.equalsIgnoreCase("chorme"))
 			{
 				
 				driver = new ChromeDriver();
