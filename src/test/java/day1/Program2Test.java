@@ -8,7 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 public class Program2Test {
-	@Test
+	@Test(groups="smoke")
 	public void test() {
 		WebDriver driver =new ChromeDriver();
 		driver.manage().window().maximize();
